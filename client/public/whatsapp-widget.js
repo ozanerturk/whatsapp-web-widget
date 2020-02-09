@@ -138,7 +138,7 @@ window.onload = function() {
 
     function onClickAgent(event){
         console.log(this.value.phone);
-        window.open("https://api.whatsapp.com/send?phone=+905399413336")
+        window.open("https://api.whatsapp.com/send?phone="+this.value.phone)
     }
 
     var uid = generateUID();
